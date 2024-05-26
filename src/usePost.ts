@@ -17,7 +17,7 @@ export default function usePost() {
             }
 
             try {
-                const resposta = await fetch(`http://localhost:8080/${url}`, {
+                const resposta = await fetch(`http://localhost:3000/${url}`, {
                     method: 'POST',
                     headers,
                     body: JSON.stringify(dados)

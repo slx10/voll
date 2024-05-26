@@ -26,6 +26,7 @@ const LinkEstilizado = styled.a`
 const LinkEstilizadoDeslogado = styled(LinkEstilizado)`
     font-weight: 400;
     text-decoration: none;
+    color: var(--azul-escuro);
 `;
 
 const ContainerPesquisa = styled.div`
@@ -79,7 +80,7 @@ function Cabecalho() {
                         <InputCustomizado type="text" placeholder="Digite sua busca" />
                         <SpanCustomizado/>
                     </ContainerPesquisa>
-                    <BotaoEstilizado>Login</BotaoEstilizado>
+                    <BotaoEstilizado href="/login">Login</BotaoEstilizado>
                 </>
                 }
             </Container>
